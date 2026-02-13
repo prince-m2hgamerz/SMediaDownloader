@@ -3,7 +3,7 @@ import requests
 import time
 import sqlite3
 import threading
-import io
+import io 
 import qrcode
 import json
 import random
@@ -19,7 +19,7 @@ from functools import wraps
 # ================= CONFIG =================
 BOT_TOKEN = "7826896426:AAEirZuz8SYakBLKKCUUCNEOZvVX5oaFL4o"
 SUPER_ADMIN_ID = 5798029484  # The bot owner who can add/remove other admins
-API_ENDPOINT = "https://wadownloader.amitdas.site/api/?url="
+API_ENDPOINT = "https://tera.iqbalalam8675.workers.dev/?url="
 
 DAILY_FREE_CREDITS = 5
 REFERRAL_BONUS = 2
