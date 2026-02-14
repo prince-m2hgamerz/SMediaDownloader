@@ -35,7 +35,7 @@ CREDIT_PLANS = {
     "plan_2": {"name": "Standard", "credits": 120, "price": 59, "popular": True},
     "plan_3": {"name": "Premium", "credits": 300, "price": 129, "popular": False},
     "plan_4": {"name": "Ultimate", "credits": 700, "price": 249, "popular": False},
-    "plan_5": {"name": "test", "credits": 2, "price": 1, "test": False},
+    # "plan_5": {"name": "test", "credits": 2, "price": 1, "test": False},
 }
 
 # Premium Config
