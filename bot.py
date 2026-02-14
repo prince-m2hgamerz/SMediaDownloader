@@ -21,8 +21,8 @@ BOT_TOKEN = "7826896426:AAEirZuz8SYakBLKKCUUCNEOZvVX5oaFL4o"
 SUPER_ADMIN_ID = 5798029484  # The bot owner who can add/remove other admins
 API_ENDPOINT = "https://tera.iqbalalam8675.workers.dev/?url="
 
-DAILY_FREE_CREDITS = 5
-REFERRAL_BONUS = 2
+DAILY_FREE_CREDITS = 2
+REFERRAL_BONUS = 5
 COOLDOWN_SECONDS = 20
 
 # UPI Payment Config
@@ -35,6 +35,7 @@ CREDIT_PLANS = {
     "plan_2": {"name": "Standard", "credits": 120, "price": 59, "popular": True},
     "plan_3": {"name": "Premium", "credits": 300, "price": 129, "popular": False},
     "plan_4": {"name": "Ultimate", "credits": 700, "price": 249, "popular": False},
+    "plan_5": {"name": "test", "credits": 2, "price": 1, "test": False},
 }
 
 # Premium Config
@@ -65,7 +66,7 @@ session.headers.update({
     "User-Agent": "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 Chrome/121.0.0.0 Mobile Safari/537.36",
     "Accept": "*/*",
     "Accept-Language": "en-US,en;q=0.9",
-    "Referer": "https://google.com"
+    "Referer": "https://pornhub.com"
 })
 
 # ================= DATABASE =================
